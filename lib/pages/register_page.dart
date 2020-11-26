@@ -20,7 +20,7 @@ class RegisterPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
 
-                Logo(titulo: 'Registro'),
+                Logo(titulo: 'REGISTRO'),
 
                 _Form(),
                 
@@ -29,8 +29,6 @@ class RegisterPage extends StatelessWidget {
                   titulo: '¿Ya tienes una cuenta?',
                   subTitulo: 'Ingresa ahora!'
                 ),
-
-                Text('Términos y condiciones de uso', style: TextStyle(fontWeight: FontWeight.w200)),
               
               ],
             ),
